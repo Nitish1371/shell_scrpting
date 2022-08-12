@@ -30,9 +30,6 @@ echo ""
 if ("$userinput" == "history")then
   echo $GREEN "Actual output :"$NC
   echo ""
-  echo $GREEN "This is  command that you use priviously "$NC
-  history
-  echo ""
   cd ..
   $userinput 
   echo $GREEN "This is command that you use priviously"$NC
