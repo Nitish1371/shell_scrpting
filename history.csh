@@ -24,10 +24,10 @@ come_here:
 
 echo $PURPLE "Enter the command here :" $NC
 echo ""
-set userinput =`head-1`
+set userinput = `head -1`
 echo ""
 
-if ("$userinput"=="history")then
+if ("$userinput" == "history")then
   echo $GREEN "Actual output :"$NC
   echo ""
   echo $GREEN "This is  command that you use priviously "$NC
@@ -47,6 +47,6 @@ if ("$userinput"=="history")then
       goto come_here
       end
       endif
-      echo $RED "----------------------"/
+      echo $RED "----------------------"/$NC
 cd $WORKING_PATH
 rm -rf nitish
