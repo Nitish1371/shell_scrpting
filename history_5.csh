@@ -15,7 +15,7 @@ setenv WORKING_PATH `pwd`
  echo $RED"-------------------------------------------------------------------"$NC
  
  echo ""
-#---------------------------------------------------------
+ #------------------------------------------------------------
  echo $GREEN"please enter the command" $PURPLE"ls"$NC
  echo ""
  come_here_l:
@@ -88,9 +88,9 @@ setenv WORKING_PATH `pwd`
          endif
        else
           while(1)
-              echo $GREEN "Try entering" $PURPLE "cd -" $GREEN "<enter>"$NC
+              echo $GREEN "Try entering" $PURPLE "cd ~" $GREEN "<enter>"$NC
              echo""
-          goto come_here_his
+          goto come_here_cd_h
           end
           endif
      else
@@ -109,6 +109,5 @@ setenv WORKING_PATH `pwd`
         goto come_here_l
          end
         endif
-
         echo $RED"-----------------------------------------------------------------------------"$NC
     cd $WORKING_PATH
